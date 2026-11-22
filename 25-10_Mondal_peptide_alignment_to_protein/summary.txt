@@ -1,0 +1,10 @@
+Total length: 1529
+Covered length: 733
+Uncovered length: 796
+Percent covered: 47.94%
+
+Peptides with 0 occurrences:
+(none)
+
+Peptides with >1 occurrences:
+(none)

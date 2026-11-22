@@ -1,0 +1,14 @@
+newImage("HyperStack", "16-bit color-mode", 171, 196, 1, 5, 51);
+run("Merge Channels...", "c1=HyperStack c2=C2-mitosis.tif create");
+//run("Channels Tool...");
+Stack.setActiveChannels("11");
+Stack.setActiveChannels("10");
+run("Color Picker...");
+setForegroundColor(200, 200, 200);
+Stack.setActiveChannels("10");
+run("Duplicate...", "duplicate channels=1 frames=1");
+run("3D Manager");
+Ext.Manager3D_AddImage;
+Ext.Manager3D_Select(0);
+Ext.Manager3D_Select(1);
+Ext.Manager3D_Distance;

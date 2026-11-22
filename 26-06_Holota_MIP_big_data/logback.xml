@@ -1,0 +1,5 @@
+<configuration>
+    <root level="ERROR"/>
+    <logger name="loci" level="ERROR"/>
+    <logger name="ome" level="ERROR"/>
+</configuration>
